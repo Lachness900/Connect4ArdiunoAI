@@ -467,7 +467,7 @@ void processMenuInput(char key){
     if(key == '4'){menu = 1; showMenu(menu);}
   }
   else if(menu == 111){
-    if(key == '1'){playGame(1, 2);}
+    if(key == '1'){Serial.println("Select Column 1-7");playGame(1, 2);}
     if(key == '2'){playGame(2, 1);}
     if(key == '3'){menu = 11; showMenu(menu);}
   }
